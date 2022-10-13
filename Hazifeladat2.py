@@ -5,3 +5,6 @@ if szam1 == szam2:
 if szam1 > szam2:
     print('Két szám nem egyezik meg')
     print('A második szám kisebb, a különbségük:',szam1 - szam2) 
+if szam1 < szam2:
+    print('két szám nem egyetik meg ')
+    print('A második szám kisebb, a különbségük:',szam1 - szam2) 
