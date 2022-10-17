@@ -8,4 +8,4 @@ if szam1 > szam2:
     print('A második szám kisebb, a különbségük:',szam1 - szam2) 
 if szam1 < szam2:
     print('két szám nem egyezik meg ')
-    print('A második szám nagyobb, a különbségük:',szam1 - szam2) 
+    print('A második szám nagyobb, a különbségük:',szam2 - szam1) 
