@@ -24,11 +24,20 @@ while szam < 100:
     szam += 2
 print("Vége")"""
 
-"""
 #5.feladat
+"""
 szam = 1
 while szam < 100:
     if szam % 2 == 1:
         print(szam)
     szam += 2
 print("Vége")"""
+
+#6.feladat
+"""
+s = "Házi feladat"
+hossz = len(s)
+szamlalo = 0
+while szamlalo <hossz:
+    print(s[szamlalo])
+    szamlalo = szamlalo + 1"""
