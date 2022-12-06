@@ -26,7 +26,7 @@ print(lista)
 #---------------------------------------
 
 lista = ["alma","banán","cseresznye"]
-print(type(lista)
+print(type(lista))
 
 #------------------------------------
 
