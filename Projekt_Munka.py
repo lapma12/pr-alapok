@@ -43,10 +43,11 @@ def eldontes():
 #-------------------------------------------------------------------
 
 def kereses():
-    print("KERESÉS TÉTELE")
-
     lista2 = ['kék', 'zöld', 'piros', 'fehér']
 
+    print("KERESÉS TÉTELE")
+    print()
+    print(f"A keresés lista {lista2}")
     talalat = False
     index = 0
     while index < len(lista2) and not talalat:
@@ -65,7 +66,10 @@ def kereses():
 
 def kivalasztas():
     lista3 = [2, 5, 4, 8, 9, 11, 10, 12]
+
     print("KIVALASZTÁS TÉTELE")
+    print()
+    print(f"Kiválasztás lista {lista3}")
     talalat = False
     index = 0
     while not talalat:
@@ -83,6 +87,8 @@ def szamlalas():
 
     lista4 = [2, 5, 4, 8, 9, 11, 10, 12]
     print("SZAMLALÁS TÉTELE")
+    print()
+    print(f"Számlálás lista {lista4}")
     talalat = False
     index = 0
     while not talalat:
@@ -98,7 +104,9 @@ def szamlalas():
 
 def szelso_ertekek():
     szamok = [3,21,7,63,9,27]
-
+    print("SZÉLSŐÉRTÉK TÉTELE")
+    print()
+    print(f"Szélsőérték lista {szamok}")
     min = szamok[0]
     max = szamok[0]
     for szam in szamok:
@@ -111,9 +119,11 @@ def szelso_ertekek():
     print(f"A számok listában a legnagyobb szám a {max} ")
 
 #-------------------------------------------------------------------------------
+
 print("Kérdbe a számokkal az adott Tételt, és írj egy 0-át a kilépéshez!")
 print()
 while True:
+    print()
     print("1 = Összegzés")
     print("2 = Eldöntés")
     print("3 = Keresés")
