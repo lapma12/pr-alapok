@@ -1,0 +1,1 @@
+EZ kerül a fájlba >>> kimenet.txt
